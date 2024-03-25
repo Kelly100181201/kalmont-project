@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/*-----header-----*/
+.nav-section {
+    background-color: #D40000;
+    width: 100Vw;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+}
+
+.logo {
+    margin: auto 41px;
+}
+
+.search-container{
+    margin: auto 151px;
+  }
+  
+input[type=text]{
+    padding-left: 20px;
+    height: 42.67px;
+    width: 350px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: none;
+    margin: auto;
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: 40px;
+    padding: 0;
+}
+
+.menu a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-decoration:none;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.menu a:hover {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: #626262;
+}
+
+/*-----Banner-----*/
+.Banner {
+    max-height: 90vh;
+    height: 90vh;
+    width: 100vw;
+    background-image: url(../img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.video {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 12rem;
+}
+
+.Banner-text {
+    position: absolute;
+	width:35%;
+	margin-left: 57rem;
+    margin-top: 316px;
+    bottom:2rem;
+    color: white;
+}
+
+.Banner-text h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/*-----content----*/
+.content {
+    margin: 284px auto;
+    height: 978px;
+    padding-left: 200px;
+    padding-right: 328px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.content2 {
+    margin: 284px auto;
+    height: 789px;
+    padding-left: 200px;
+    padding-right: 328px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.content3 {
+    margin: 284px auto;
+    height: 786px;
+    padding-left: 200px;
+    padding-right: 328px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.content4 {
+    margin: 284px auto;
+    height: 946px;
+    padding-left: 200px;
+    padding-right: 328px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.content5 {
+    margin: 284px auto;
+    height: 980px;
+    padding-left: 200px;
+    padding-right: 328px;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.list {
+    display: flex;
+}
+
+.red {
+    color: #D40000;
+}
+
+.pointer {
+    background-color: #D40000;
+    width: 36px;
+    height: 9px;
+    margin-top: 15px;
+}
+
+.pointer2 {
+    background-color: #D40000;
+    width: 36px;
+    height: 9px;
+    margin-top: 58px;
+}
+
+.pointer3 {
+    background-color: #D40000;
+    width: 36px;
+    height: 9px;
+    margin-top: 100px;
+}
+
+.pointer4 {
+    background-color: #D40000;
+    width: 36px;
+    height: 9px;
+    margin-top: 140px;
+}
+
+.pointer5 {
+    background-color: #D40000;
+    width: 36px;
+    height: 9px;
+    margin-top: 182px;
+}
+
+.list ul {
+    list-style-type: none;
+    line-height: 40px;
+    width: 328px;
+    padding: 0%;
+    margin-top: 0;
+    margin-left: 23px;
+}
+
+.list a{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #626262;
+}
+
+.list a:hover{
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+    color: #D40000;
+}
+
+.redline {
+    background-color: #D40000;
+    width: 1%;
+    margin-right: 45px;
+}
+
+.Marg {
+    margin-bottom: 0;
+}
+
+.Banner2 {
+    background-image: url(../img/banner3.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 168px;
+    padding-left: 42px;
+    padding-top: 100px;
+}
+
+.Banner2 h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.Banner2 p{
+    width: 70%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+
+.Banner3 {
+    background-image: url(../img/banner4.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 168px;
+    padding-left: 42px;
+    padding-top: 100px;
+}
+
+.Banner3 h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.Banner3 p{
+    width: 70%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+
+.Banner4 {
+    background-image: url(../img/banner5.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 168px;
+    padding-left: 42px;
+    padding-top: 100px;
+}
+
+.Banner4 h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.Banner4 p{
+    width: 70%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+
+.Banner5 {
+    background-image: url(../img/banner6.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 168px;
+    padding-left: 42px;
+    padding-top: 100px;
+}
+
+.Banner5 h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.Banner5 p{
+    width: 70%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+
+.Banner6 {
+    background-image: url(../img/banner7.png);
+    background-repeat: no-repeat;
+    width: 840px;
+    height: 168px;
+    padding-left: 42px;
+    padding-top: 100px;
+}
+
+.Banner6 h1{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: white;
+}
+
+.Banner6 p{
+    width: 70%;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+}
+
+.box {
+    width: 60%;
+    margin-top: 35px;
+}
+
+.box h1 {
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #D40000;
+}
+
+.box p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+/*-----footer----*/
+footer{
+    background-color: #626262;
+    display: flex;
+    justify-content: space-between;
+    width: 100Vw;
+    height: 414px;
+}
+
+.contact-text{
+    flex:80%;
+    padding-left: 92px;
+    margin-top: 91px;
+}
+
+.contact-text img{
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+.contact-text p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+	font-size: 14px;
+    color: white;
+    margin-top: 18px;
+}
+
+.contact-text h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-size: 20px;
+    color: white;
+    margin-top: 37px;
+    margin-bottom: 0px;
+}
+
+.contact-text h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+	font-size: 14px;
+    color: white;
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+.contact-text h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-size: 20px;
+    color: white;
+    margin-top: 23px;
+    margin-bottom: 0px;
+}
+
+.nav2{
+    flex:20%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav2 h3{
+    font-weight: 700;
+	font-size: 20px;
+    color: white;
+    margin-top: 94px;
+}
+
+.nav2 ul {
+    list-style-type: none;
+  }
+
+.nav2 a{
+    font-weight: 400;
+	font-size: 14px;
+    color: white;
+    text-decoration:none;
+    flex-direction: column;
+}
+
+
+.Donation{
+    flex:30%;
+    margin-right: 91px;
+    margin-left: 113px;
+    margin-right: 95px;
+    margin-left: 113px;
+}
+
+.Donation h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-style: normal;
+	font-size: 20px;
+    color: white;
+    margin-top: 94px;
+    margin-bottom: 0px;
+}
+
+.Donation p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.Donation .button-main{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+    color: white;
+    display: inline-block;
+	padding: 13px 18px;
+	text-decoration: none;
+	border-radius: 50rem;
+	background-color:#D40000;
+    margin-top: 53px;
+}
+
+.Donation .button-main:hover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+    color: white;
+	background-color:#626262;
+    margin-top: 53px;
+}
+
+
+.nav3{
+    background-color: #626262;
+    width: 100Vw;
+    height: 86px;
+}
+
+.nav3 p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+}
